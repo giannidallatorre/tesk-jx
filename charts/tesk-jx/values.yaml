@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.109.225.182:5000/giannidallatorre/tesk-jx
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: tesk-jx
